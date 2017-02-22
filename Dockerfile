@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:14.04
 
 LABEL maintainer Mario Werner <mario.werner@iaik.tugraz.at>
 
@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
   build-essential \
   cmake \
   git \
+  libxext6 \
   libxi6 \
   libxrender1 \
   libxtst6 \
