@@ -4,7 +4,7 @@ LABEL maintainer Mario Werner <mario.werner@iaik.tugraz.at>
 
 #install dependencies:
 # * wget -> to fetch the vivado file from a server
-# * build-essential, cmake, git, python3 -> (gcc/g++/make/... for building high level models and for scripting)
+# * build-essential, cmake, gettext-base, git, python3 -> (gcc/g++/make/... for building high level models and for scripting)
 # * libx... -> to make the installer and the gui tools happy
 # * libgtk2.0-0 -> required for running xsdk
 RUN apt-get update && apt-get install -y \
