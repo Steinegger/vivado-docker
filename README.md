@@ -18,7 +18,7 @@ python3 -m http.server
 2. Build the image by specifying the host for downloading, the filename, and the license server
 
 ```shell
-docker build --build-arg VIVADO_TAR_HOST=<hostip>:<hostport> --build-arg VIVADO_TAR_FILE=<filename> --build-arg LICENSE_SERVER=<license_server> -t <imagename> <builddirectory> 
+docker build --build-arg VIVADO_TAR_HOST=<hostip>:<hostport> --build-arg VIVADO_TAR_FILE=<filename> --build-arg LICENSE_SERVER=<license_server> -t <imagename> <builddirectory>
 ```
 
 ## Running the Image and using Vivado
